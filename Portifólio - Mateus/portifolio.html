@@ -105,6 +105,9 @@
                                 <a href="#sobree" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5FCB69] md:p-0 dark:text-white md:dark:hover:text-[#5FCB69] dark:hover:bg-gray-700/50 dark:hover:text-white md:dark:hover:bg-transparent transition-all">Sobre</a>
                             </li>
                             <li>
+                                <a href="#competencias" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5FCB69] md:p-0 dark:text-white md:dark:hover:text-[#5FCB69] dark:hover:bg-gray-700/50 dark:hover:text-white md:dark:hover:bg-transparent transition-all">Competências</a>
+                            </li>
+                            <li>
                                 <a href="#certificados" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5FCB69] md:p-0 dark:text-white md:dark:hover:text-[#5FCB69] dark:hover:bg-gray-700/50 dark:hover:text-white md:dark:hover:bg-transparent transition-all">Cursos</a>
                             </li>
                             <li>
@@ -182,8 +185,120 @@
             </section>
             <!-- Fim da seção sobre -->
 
+            <!-- Seção Competências -->
+            <section id="competencias" class="bg-gray-100 dark:bg-gray-900 py-16 px-6">
+                <div class="max-w-5xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white text-center mb-12">
+                        Minhas Competências
+                    </h2>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> <!-- Aumentei o gap para 8 -->
+                        <!-- Card Python -->
+                        <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 hover:shadow-md transition-shadow">
+                            <div class="flex items-center mb-4 space-x-4"> <!-- Adicionei space-x-4 -->
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="w-8 h-8"/> <!-- Aumentei para w-12 h-12 -->
+                                <h5 class="text-2xl font-semibold text-gray-900 dark:text-white">Python</h5>
+                            </div>
+                            <p class="mb-4 font-normal text-gray-700 dark:text-gray-300"> <!-- Aumentei mb-3 para mb-4 -->
+                                Experiência em desenvolvimento com Python, incluindo automação, análise de dados e desenvolvimento web com frameworks como Flask.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mt-4">
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">Pandas</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">Flask</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">Automação</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Front-end -->
+                        <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 hover:shadow-md transition-shadow">
+                            <div class="flex items-center mb-4 space-x-4"> <!-- Adicionei space-x-4 -->
+                                <div class="flex space-x-3"> <!-- Mudei de mr-3 para space-x-3 -->
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="w-8 h-8"/>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="w-8 h-8"/>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" class="w-8 h-8"/>
+                                </div>
+                                <h5 class="text-2xl font-semibold text-gray-900 dark:text-white">Front-end</h5>
+                            </div>
+                            <p class="mb-4 font-normal text-gray-700 dark:text-gray-300">
+                                Desenvolvimento de interfaces responsivas e acessíveis com HTML5, CSS3 e JavaScript, utilizando frameworks como Tailwind CSS.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mt-4">
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">Responsivo</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">Tailwind</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">Acessibilidade</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Banco de Dados -->
+                        <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 hover:shadow-md transition-shadow">
+                            <div class="flex items-center mb-4 space-x-4">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" class="w-8 h-8"/>
+                                <h5 class="text-2xl font-semibold text-gray-900 dark:text-white">Banco de Dados</h5>
+                            </div>
+                            <p class="mb-4 font-normal text-gray-700 dark:text-gray-300">
+                                Conhecimento em modelagem e consulta de bancos de dados relacionais com MySQL, além de noções de bancos NoSQL.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mt-4">
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">MySQL</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">SQL</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">Modelagem</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card UI/UX -->
+                        <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 hover:shadow-md transition-shadow">
+                            <div class="flex items-center mb-4 space-x-4">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" class="w-8 h-8"/>
+                                <h5 class="text-2xl font-semibold text-gray-900 dark:text-white">UI/UX Design</h5>
+                            </div>
+                            <p class="mb-4 font-normal text-gray-700 dark:text-gray-300">
+                                Criação de interfaces intuitivas e agradáveis com Figma, desde protótipos de baixa até alta fidelidade, com foco na experiência do usuário.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mt-4">
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">Figma</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">Wireframes</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">Prototipagem</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card C++ -->
+                        <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 hover:shadow-md transition-shadow">
+                            <div class="flex items-center mb-4 space-x-4">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" class="w-8 h-8"/>
+                                <h5 class="text-2xl font-semibold text-gray-900 dark:text-white">C++</h5>
+                            </div>
+                            <p class="mb-4 font-normal text-gray-700 dark:text-gray-300">
+                                Conhecimento em programação com C++, incluindo conceitos de orientação a objetos e estruturas de dados.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mt-4">
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">OOP</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">Estruturas</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">Algoritmos</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Flutter -->
+                        <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 hover:shadow-md transition-shadow">
+                            <div class="flex items-center mb-4 space-x-4">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart" class="w-8 h-8"/>
+                                <h5 class="text-2xl font-semibold text-gray-900 dark:text-white">Flutter/Dart</h5>
+                            </div>
+                            <p class="mb-4 font-normal text-gray-700 dark:text-gray-300">
+                                Desenvolvimento de aplicativos multiplataforma com Flutter e Dart, criando interfaces nativas para iOS e Android.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mt-4">
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">Mobile</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">Cross-platform</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-[#5FCB69]/20 text-[#5FCB69] rounded-full">UI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Fim da seção Competências -->
+
             <!-- Seção Certificações -->
-            <section id="certificados" class="bg-gray-100 dark:bg-gray-900 py-16 px-6">
+            <section id="certificados" class="bg-white dark:bg-gray-800 py-16 px-6">
                 <div class="relative w-full max-w-3xl mx-auto">
                     <div class="max-w-5xl mx-auto text-center">
                         <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">
@@ -260,7 +375,7 @@
             <!-- Fim da seção certificados -->
 
             <!-- Seção Projetos -->
-            <section id="projetos" class="bg-gray-100 dark:bg-gray-800 py-16 px-6">
+            <section id="projetos" class="bg-gray-100 dark:bg-gray-900 py-16 px-6">
                 <div class="relative w-full max-w-3xl mx-auto">
                     <div class="max-w-5xl mx-auto text-center">
                         <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">
@@ -335,11 +450,11 @@
             <!-- Fim da seção projetos -->
 
             <!-- Seção Contato -->
-<section id="contato" class="bg-white dark:bg-gray-800 py-16 px-6">
-    <div class="max-w-5xl mx-auto">
-        <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white text-center mb-12">
-            Vamos trabalhar juntos?
-        </h2>
+        <section id="contato" class="bg-white dark:bg-gray-800 py-16 px-6">
+            <div class="max-w-5xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white text-center mb-12">
+                    Vamos trabalhar juntos?
+                </h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
             <!-- Informações de Contato -->
